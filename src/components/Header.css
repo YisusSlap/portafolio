@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 70px;
+    background: rgba(35, 35, 35, 0.99);
+    align-items: center;
+    padding: 10px;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+
+#header-button{
+    margin-right: 15px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    #header-button{
+        margin-right: 0px;
+    }
+}
